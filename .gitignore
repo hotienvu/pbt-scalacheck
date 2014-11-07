@@ -1,0 +1,21 @@
+#use glob syntax.
+syntax: glob
+
+# general
+.DS_Store
+.history
+.idea*
+*.log
+*.iml
+*.ipr
+*.iws
+*.ids
+*~
+
+# scala / java
+target/
+*.jar
+*.sc
+
+# switch to regexp syntax.
+syntax: regexp.iml
